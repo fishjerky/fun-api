@@ -1,0 +1,20 @@
+@charset "utf-8";
+.reg {font: 400 15px/130% 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;color: #000;border-top:5px solid #1AA2F8;border-bottom: 5px solid #1AA2F8;border-left: 5px solid #1AA2F8;border-right: 5px solid #1AA2F8;width:780px; margin:0 auto; padding:0 0;}
+.reg p a{color:#515151; text-decoration:none;}
+.reg p img{margin-bottom:5px; vertical-align:middle;}
+
+.reg th {color: #fff;font: 400 18px/130% 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;height:30px;padding:10px 10px;background-color:#1AA2F8;background-image: url(/images/Point.gif);background-repeat: no-repeat;background-position: left 50px;text-align:left;}
+.reg td.right {text-align:left;padding:13px 10px 5px 10px;border-left:5px #1AA2F8 solid;clear:both;}
+.tb_reg{ margin:5px 5px; padding-top:10px;}
+.tb_reg td {height:30px; padding:1px 5px; /*border-bottom:1px #CCCCCC dashed;*/vertical-align:inherit;}
+.tb_reg td .noline {height:50px; padding:5px;vertical-align:inherit;}
+.tb_reg td input{width:125px;height:20px; font:400 11px/120% Arial,Helvetica, sans-serif, Verdana; color:#878787;}
+.tb_reg td input img{ vertical-align:middle; padding-left:2px;}
+.tb_reg td input p img{vertical-align:middle; font: 400 13px/130% 微軟正黑體, Verdana, Arial, Helvetica, sans-serif;}
+.loginbtn{ float: right; width:130px; height:100px; padding:0 0; margin:0 0;}
+.loginbtn img{ vertical-align:middle;}
+
+.btn {border-top:1px dashed #bdbdbd;padding:10px 0 10px 95px; margin:15px 10px 0 10px;}
+.other_b {text-align:center; padding:15px 0;}
+.other_b img {float:left; border:1px #ededed solid;margin:5px 5px;}
+#regsubmit {width:115px;height:33px;line-height:33px;color:#000;font-size: 13px;text-align:center;background: url(/images/button.gif) no-repeat left top;border: 1px solid #bbbcc1;}

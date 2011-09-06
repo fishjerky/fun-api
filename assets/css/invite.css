@@ -1,0 +1,85 @@
+﻿@charset "utf-8";
+/* CSS Document */
+img{border:none;}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#F7F7F7;
+}
+/* CSS Document */
+html,body,p,h1,h2,h3,h4,h5,h6,ul,li,{margin:0;padding:0; font:400 12px/150% Arial, Helvetica, sans-serif;}
+.clr{clear:both;}
+.finder{ width:750px;margin:0 auto; padding:0; background-color:#F7F7F7;}
+.finder .container{ padding:20px;color:#999999;font-weight: normal;display:inline-table;.padding:10px 50px 20px 50px;font-size:13px;}
+.finder .container h2{font-size:16px; color:#000;}
+.finder .container h4{color:#999999;font-weight: normal; border-bottom:1px #c1c1c1 solid; padding-bottom:10px;}
+.finder .container p{padding:10px 0; font-size:12px;}
+.finder .f_label{ margin:5px 0 10px 0;}
+.finder .f_label label{padding:5px 7px 0 0;font-weight: bold;}
+.finder .inputtext{ width:220px ; margin:5px 2px; border:1px solid #bdc7d8; color:#999999; vertical-align:middle;}
+.view_on{ width:645px; border:solid 1px #c1c1c1; padding:2px 2px; height:25px; }
+.view_on label{ background-color:#3b5998; padding:2px 8px; float:right; margin-left:3px;}
+
+/*朋友名單類別*/
+.friend_group {width:120px;float:left;}
+.friend_group h3{margin:0;font:400 13px/150% Arial, Helvetica, sans-serif;}
+.friend_group h3 a {background:url(/assets/images/invite/down.gif) no-repeat 105px 5px; display:block;border:solid 1px #fff; padding-bottom:3px;}
+.friend_group h3 a:hover{background:url(/assets/images/invite/down_ov.gif) no-repeat 105px 5px; background-color:#6d85b5; border:solid 1px #3b5998;color:#fff;text-decoration:none;padding-bottom:3px;}
+#friend_group.active {color:#fff;text-decoration:none;background:url(/assets/images/down_ov.gif) no-repeat 105px 5px; background-color:#6d85b5; border:solid 1px #3b5998;color:#fff;text-decoration:none;padding-bottom:3px;}
+
+/*朋友名單類別list*/
+.friend_group ul{border:solid 1px #6d85b5; border-top:solid 0px;padding: 0;margin:0;position:absolute; overflow:hidden; z-index:10; width:118px; background-color:#FFF; display:none;}
+.friend_group ul li{list-style:none; line-height:25px;}
+.friend_group ul li a{display: block;padding-left:3px;}
+.friend_group ul li a:hover{background-color:#5c75aa;color:fff;line-height:25px;padding-left:3px;}
+
+.select_filter{ float:right; display:inline; padding:5px 10px; width:150px; text-align:right; }
+.select_filter a{ padding:1px 5px; color:#6D84B4;}
+.select_filter a.active{
+   background:#6D84B4; border:1px solid #43609D; font-weight:bold; color:#FFF;
+   border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+}
+
+/*邀請的好友*/
+.friends{padding:7px 7px;height:300px;overflow:auto;border:1px solid #e7ebf5;border:1px solid #c1c1c1;border-top:none;background:#fff; float:left;clear:both; width:635px;overflow-y:scroll; margin-bottom:10px;}
+.friends .f_list{float:left;margin:2px;overflow:hidden; width:130px; height:60px;padding:4px 4px;}
+.friends .f_list p{ padding:0;}
+.friends .f_list img{ border:1px #CCCCCC solid; padding:3px 3px; float:left; margin-right:5px;}
+.friends .f_list .ok{ display:none;}
+
+.friends .f_hover{float:left;margin:2px;overflow:hidden;width:130px;height:60px;padding:4px 4px;background-image: url(/assets/images/invite/f_list.gif);background-repeat: no-repeat;background-position: left top; position:relative;}
+.friends .f_hover p{ padding:0;}
+.friends .f_hover img{ border:1px #006291 solid; padding:3px 3px; float:left; margin-right:5px; background-color:#FFF;}
+.friends .f_hover .ok{ display:none;}
+
+.friends .name{height:60px; margin:0px; width:65px; float:right; text-align:left; word-wrap:break-word; overflow:hidden;}
+
+/*邀請的好友選取*/
+.friends .f_click{float:left;margin:2px;overflow:hidden;width:130px;height:60px;padding:4px 4px;background-image: url(/assets/images/invite/f_list_ov.gif);background-repeat: no-repeat;background-position: left top; position:relative;}
+.friends .f_click p{ padding:0; }
+.friends .f_click img{
+	border:1px #b1c1e1 solid;
+	padding:3px 3px;
+	float:left;
+	margin-right:5px;
+	background-color:#ACBAD2;
+}
+.friends .f_click .ok{position:absolute;top:31px;left:2px;z-index:2; background-color:transparent; display:block;}
+.friends .f_click .ok img{border: none; background-color:transparent;}
+
+/*按鈕樣式*/
+.inputbutton{ margin-top:5px;color:#666;background-color:#f0f0f0;border-bottom:1px solid #999;border-right:1px solid #999; float:right;}
+.inpute_button{clear:both;border-bottom:1px solid #000;border-right:1px solid #000;float:left;padding:5px 5px 4px 25px;color:#fff;background-color:#3b5998;background-image: url(/assets/images/invite/email.gif);background-repeat: no-repeat;background-position:5px 8px; text-align:left; .padding:7px 5px 2px 25px;}
+
+/*文字*/
+.txt13Blue{color:#6d84b4;font:400 13px/160% Verdana, Arial, Helvetica, sans-serif;}
+.txt13Blue a {color:#6d84b4;text-decoration:none;}
+.txt13Blue a:hover{color:#fff;text-decoration:none;}
+.txt13bk{color:#000;font:400 13px/160% Verdana, Arial, Helvetica, sans-serif;}
+.txt13bk a {color:#000;text-decoration:none;}
+.txt13bk a:hover{color:#000;text-decoration:none;}
+.txt13w{color:#fff;font:400 13px/160% Verdana, Arial, Helvetica, sans-serif;}
+.txt13w a {color:#fff;text-decoration:none;}
+.txt13w a:hover{color:#fff;text-decoration:none;}
